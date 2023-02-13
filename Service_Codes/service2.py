@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return 'This service is service2.'
-@app.route('/service1')
+@app.route('/service2')
 def service2():
     return 'Hello. I\'m service2.'
 
